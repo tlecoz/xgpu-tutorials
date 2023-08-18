@@ -12,6 +12,7 @@ class TutoElement extends UIElement {
     constructor(obj: any, folderLevel: number, folderName?: string) {
 
         super("div", {
+            display: "flex",
             width: `calc(${config.MENU_WIDTH}"px" - ${folderLevel} * 25px )`,
             fontFamily: "Arial",
             fontSize: folderName ? "15px" : "14px",
