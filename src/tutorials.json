@@ -1,0 +1,92 @@
+{
+    "tutorials": [
+        {
+            "name": "Overview",
+            "parts": [
+                "What XGPU is made for ?",
+                "General overview",
+                "Primitive Types",
+                "Buffers",
+                "Textures",
+                "Bindgroups",
+                "Shaders",
+                "Pipelines",
+                "Mid level data structure",
+                "High level data structure",
+                "Pipeline Plugins",
+                "Device lost"
+            ]
+        },
+        {
+            "name": "Rendering",
+            "sections": [
+                {
+                    "name": "Basics",
+                    "parts": [
+                        "Draw a triangle",
+                        "Renderer",
+                        "Shaders",
+                        "Vertex shader",
+                        "Shader inputs & outputs",
+                        "Fragment shader",
+                        "Pipeline inputs & outputs",
+                        "Multiple ways to draw a triangle",
+                        "Draw an image",
+                        "Create a filter",
+                        "RenderPassTexture",
+                        "Shader resources",
+                        "Camera & Matrixs",
+                        "Position & dimension",
+                        "Move & rotate",
+                        "IndexBuffer",
+                        "Extend a pipeline",
+                        "Fix aspect ratio",
+                        "Modify and create shader nodes",
+                        "Vertex Attributes",
+                        "Draw a cube",
+                        "Antialiasing",
+                        "BlendMode",
+                        "Pipeline properties",
+                        "Draw 2 cubes with the same pipeline",
+                        "Draw different polygons with the same pipeline",
+                        "Draw multiple instance of cubes"
+                    ]
+                },
+                {
+                    "name": "Advanced",
+                    "parts": [
+                        "Mid level data structure",
+                        "VertexBuffers",
+                        "UniformBuffers",
+                        "UniformGroup",
+                        "RenderPipeline feed by a ComputePipeline",
+                        "Headless rendering",
+                        "Use a video in a compute shader",
+                        "point-list",
+                        "write text",
+                        "Bindgroups",
+                        "create a PipelinePlugins",
+                        "extend a PipelinePlugin"
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Computing",
+            "sections": [
+                {
+                    "name": "Basics",
+                    "parts": [
+                        "ComputePipeline",
+                        "ComputeShader",
+                        "computing Fibonnacci sequence",
+                        "find the average color of an image",
+                        "compute & render a particle system",
+                        "compute & render a filter",
+                        "handle mouse interaction"
+                    ]
+                }
+            ]
+        }
+    ]
+}
