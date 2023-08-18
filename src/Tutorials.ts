@@ -12,8 +12,8 @@ export class Tutorials extends UIElement {
             height: `calc(100vh - ${config.HEADER_HEIGHT} - ${config.FOOTER_HEIGHT})`
         })
 
-        const menu: TutorialMenu = this.appendChild(new TutorialMenu(json));
-        const tutorial: Tutorial = this.appendChild(new Tutorial());
+        this.appendChild(new TutorialMenu(json));
+        this.appendChild(new Tutorial());
 
     }
 
